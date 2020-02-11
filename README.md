@@ -23,10 +23,6 @@ It has a constructor which is used to get input stream from the client socket,
  Override the actionPerformed method for Button.
  ## class reader
  Overrides the run method. It is used by the thread in go() method.
- ### run() method
- Prints the String.
- ### telleveryone() method
- print message for every connected client using PrintWriter class
 
 
 
