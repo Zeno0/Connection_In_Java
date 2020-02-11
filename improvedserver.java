@@ -15,6 +15,7 @@ public class improvedserver {
                 sc = clsc;
                 InputStreamReader ir = new InputStreamReader(sc.getInputStream());  // InputStreamReader 'ir' contains Socket 'sc' 
                 re = new BufferedReader(ir);                                        // infromation using .getInputStream() method
+           // re = new BufferedReader(new InputStreamReader(clsc.getInputStream()));
             }catch(Exception ex){ex.printStackTrace();}
         }
         
@@ -24,7 +25,7 @@ public class improvedserver {
             try{
                 while((msg = re.readLine()) != null){  // while message is available
                     System.out.println("read "+msg);   // print it
-                    telleveryone(msg);                 
+                    telleveryone(msg);        // use telleveryone method to orint ressage to all ckients         
                 }
             }catch(Exception ex){ex.printStackTrace();}
         }
@@ -35,7 +36,7 @@ public class improvedserver {
         while(it.hasNext()){
             try{
                 PrintWriter pw = (PrintWriter) it.next();  // Iterator object is casted to PrintWriter 'pw'
-                pw.println(msg);
+                pw.println(msg); // print msg
                 pw.flush();
             }catch(Exception ex){ex.printStackTrace();}
         }
