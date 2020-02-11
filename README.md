@@ -14,6 +14,25 @@ It has a constructor which is used to get input stream from the client socket,
  print message for every connected client using PrintWriter class
 
 
+ ## class improvedclient
+ ### go() method
+ This method creates the GUI interface and sets up networking between client and server. A thread is used for printing information at the terminal
+ ### setupnetworking method()
+ Creates connection between client socket and server socket.
+ ## class bitlisten 
+ Override the actionPerformed method for Button.
+ ## class reader
+ Overrides the run method. It is used by the thread in go() method.
+ 
+
+## class clienthandler
+It has a constructor which is used to get input stream from the client socket,
+ ### run() method
+ Prints the String.
+ ### telleveryone() method
+ print message for every connected client using PrintWriter class
+
+
 
 PS: Run client, after running the server
 Source: Head First Java book by O'Reily
