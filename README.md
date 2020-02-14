@@ -17,7 +17,7 @@ It has a constructor which is used to get input stream from the client socket,
  ## class improvedclient
  ### go() method
  This method creates the GUI interface and sets up networking between client and server. A thread is used for printing information at the terminal
-  ### setupnetworking method()
+  ### setupnetworking() method
   Creates connection between client socket and server socket.
  ## class bitlisten 
  Override the actionPerformed method for Button.
