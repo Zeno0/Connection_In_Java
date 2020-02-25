@@ -23,6 +23,8 @@ It has a constructor which is used to get input stream from the client socket,
  Override the actionPerformed method for Button.
  ## class reader
  Overrides the run method. It is used by the thread in go() method.
+ ## using_rmi
+   ERROR: invalid url
 
 
 
