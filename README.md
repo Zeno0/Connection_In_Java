@@ -29,5 +29,5 @@ It has a constructor which is used to get input stream from the client socket,
 
 
 PS: Run client, after running the server
-Source: Head First Java book by O'Reily
+Source: Head First Java book by O'Reilly
 
