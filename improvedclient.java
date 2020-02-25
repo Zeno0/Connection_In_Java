@@ -53,7 +53,7 @@ public class improvedclient {
         
         try{
             
-            sc= new Socket("127.0.0.1",5000); 
+            sc= new Socket("127.0.0.1",5000);   // client socket connection with server socket
             InputStreamReader ir = new InputStreamReader(sc.getInputStream());
             re = new BufferedReader(ir);
             wr = new PrintWriter(sc.getOutputStream());
